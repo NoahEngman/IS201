@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background and General Styling */
+body {
+    font-family: 'Times New Roman', serif;  /* Set font to Times New Roman */
+    background-color: #f2c777; /* Honey gold background */
+    color: #3e2a47; /* Dark gold color for text (a rich golden-brown) */
+}
+
+/* Header Styling */
+header {
+    background-color: #d98c29; /* Rich goldish color for header */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', serif;  /* Set title font to Times New Roman */
+    color: #fff; /* White title text to stand out against gold */
+}
+
+/* Navigation Styling */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ff6347; /* Tomato color for links */
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #ff4500; /* Darker orange when hovered */
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3e2a47; /* Dark gold text color for headings */
+    font-family: 'Times New Roman', serif;  /* Set heading font to Times New Roman */
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Styling for Ordered List */
+ol {
+    list-style-type: decimal;
+    padding-left: 20px; /* Indentation for ordered list */
+    margin-left: 20px; /* Indentation for ordered list */
+    color: #3e2a47; /* Dark gold color for ordered list items */
+}
+
+/* Styling for Nested Unordered List */
+ol > li > ul {
+    list-style-type: disc; /* Disc style for unordered list */
+    margin-left: 40px; /* Indentation for unordered list under ordered list */
+    color: #3e2a47; /* Dark gold color for unordered list items */
+}
+
+/* Image Styling */
+img {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 0;
+}
